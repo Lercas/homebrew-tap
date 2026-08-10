@@ -1,7 +1,6 @@
 class Prowl < Formula
   desc "Fast, configurable secret scanner for code, git, images, buckets, and live apps"
   homepage "https://github.com/Lercas/prowl"
-  version "1.3.0"
   license "PolyForm-Noncommercial-1.0.0"
 
   on_macos do
