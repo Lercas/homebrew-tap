@@ -1,28 +1,28 @@
 class Prowl < Formula
   desc "Fast, configurable secret scanner for code, git, images, buckets, and live apps"
   homepage "https://github.com/Lercas/prowl"
-  version "1.0.2"
+  version "1.3.0"
   license "PolyForm-Noncommercial-1.0.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Lercas/prowl/releases/download/v1.0.2/prowl-darwin-arm64"
-      sha256 "4c8ad40210e8425e2d86c24444c9f23bead71e073f5a1781bb510514fb933cf0"
+      url "https://github.com/Lercas/prowl/releases/download/v1.3.0/prowl-darwin-arm64"
+      sha256 "c4a9e48e316d206635e1a8cc5fea232d008c656feb6b64ed9ebd4bdec283e024"
     end
     on_intel do
-      url "https://github.com/Lercas/prowl/releases/download/v1.0.2/prowl-darwin-amd64"
-      sha256 "69420b21c6239c42668bd1d475d36e9b76d6249fec03d6552d6ff0c8249732ec"
+      url "https://github.com/Lercas/prowl/releases/download/v1.3.0/prowl-darwin-amd64"
+      sha256 "99f81bb2ef459fbcd003ee1ee23a345f8995a296391085e9fe325812410c1816"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Lercas/prowl/releases/download/v1.0.2/prowl-linux-arm64"
-      sha256 "de59a262dc6fd049856fd1e09fa6c58492ee96841e2880fa4e550de20d021dd3"
+      url "https://github.com/Lercas/prowl/releases/download/v1.3.0/prowl-linux-arm64"
+      sha256 "a2888c787622d518d2dfb22d405e3b68b1b68027a70a5cfaa5f0c0ac298a2d61"
     end
     on_intel do
-      url "https://github.com/Lercas/prowl/releases/download/v1.0.2/prowl-linux-amd64"
-      sha256 "cd9dadb0974fb0d04ed9cf2391b3dd71014dcff37cd9d4125a493c6326fce33e"
+      url "https://github.com/Lercas/prowl/releases/download/v1.3.0/prowl-linux-amd64"
+      sha256 "63f6623b2ab035c7a25e16b72f0fd34cfe923cf8f7dbbc9bbc8085704497680f"
     end
   end
 
