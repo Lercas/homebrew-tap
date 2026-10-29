@@ -5,23 +5,23 @@ class Prowl < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Lercas/prowl/releases/download/v1.3.0/prowl-darwin-arm64"
-      sha256 "c4a9e48e316d206635e1a8cc5fea232d008c656feb6b64ed9ebd4bdec283e024"
+      url "https://github.com/Lercas/prowl/releases/download/v1.4.0/prowl-darwin-arm64"
+      sha256 "78c5b4d32e1a37efb4d7b2c439a36e1d6d4e4387e0d98163b4cb9d1474e6bdcd"
     end
     on_intel do
-      url "https://github.com/Lercas/prowl/releases/download/v1.3.0/prowl-darwin-amd64"
-      sha256 "99f81bb2ef459fbcd003ee1ee23a345f8995a296391085e9fe325812410c1816"
+      url "https://github.com/Lercas/prowl/releases/download/v1.4.0/prowl-darwin-amd64"
+      sha256 "27b927e57363107b9defbc598a99b202bf6f80e49191e3b21932d8d6329a70cc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Lercas/prowl/releases/download/v1.3.0/prowl-linux-arm64"
-      sha256 "a2888c787622d518d2dfb22d405e3b68b1b68027a70a5cfaa5f0c0ac298a2d61"
+      url "https://github.com/Lercas/prowl/releases/download/v1.4.0/prowl-linux-arm64"
+      sha256 "2ae5b599607e58e915ed91809078ba4e500478239d6bb7e41a6bb6d11a34d593"
     end
     on_intel do
-      url "https://github.com/Lercas/prowl/releases/download/v1.3.0/prowl-linux-amd64"
-      sha256 "63f6623b2ab035c7a25e16b72f0fd34cfe923cf8f7dbbc9bbc8085704497680f"
+      url "https://github.com/Lercas/prowl/releases/download/v1.4.0/prowl-linux-amd64"
+      sha256 "b26393b49023594e3f73745f785ae87284ea4e80bd662963231933015c840b5c"
     end
   end
 
